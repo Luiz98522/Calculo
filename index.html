@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tauai.css">
+    <title>Números com JS</title>
+    
+    
+
+
+    
+    <!--Soma-->
+    
+    <style>
+        body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 30px; }
+    </style>
+
+</head>
+<body>
+    <h1>Soma</h1>
+    <button onclick="somar()">Iniciar</button>
+    <section id="res">
+        <p>O resultado vem aqui...</p>
+    </section>
+
+    <script>
+    
+        function somar() {
+            let n1 = Number(window.prompt('Digite um número: '))
+            let n2 = Number(window.prompt('Digite outro número:'))
+            soma = n1 + n2
+
+            let res = document.querySelector('section#res')
+            res.innerHTML = `<p>A soma entre <mark>${n1}</mark> e <mark>${n2}</mark> é igual a <strong>${soma}</strong>!</p>`
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+<!--Subtração-->
+
+<style>
+    body { font: 12pt Arial; }
+    button { font-size: 12pt; padding: 30px; }
+</style>
+<h1>Subtração </h1>
+<button onclick="subtração()">Iniciar </button>
+<section id="ressub">
+    <p>O resultado vem aqui...</p>
+</section>
+
+<script>
+
+    function subtração() {
+        let n1 = Number(window.prompt('Digite um número: '))
+        let n2 = Number(window.prompt('Digite outro número:'))
+        sub = n1 - n2
+
+        let ressub = document.querySelector('section#ressub')
+        ressub.innerHTML = `<p>A subtração entre <mark>${n1}</mark> e <mark>${n2}</mark> é igual a <strong>${sub}</strong>!</p>`
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!--Divisão-->
+
+
+<style>
+    body { font: 12pt Arial; }
+    button { font-size: 12pt; padding: 30px; }
+</style>
+<h1>Divisão</h1>
+<button onclick="divisão()">Iniciar </button>
+<section id="resdiv">
+    <p>O resultado vem aqui...</p>
+</section>
+
+<script>
+
+    function divisão() {
+        let n1 = Number(window.prompt('Digite um número: '))
+        let n2 = Number(window.prompt('Digite outro número:'))
+        div = n1 / n2
+
+        let resdiv = document.querySelector('section#resdiv')
+        resdiv.innerHTML = `<p>A Divisão entre <mark>${n1}</mark> e <mark>${n2}</mark> é igual a <strong>${div}</strong>!</p>`
+    }
+</script>
+
+
+
+
+
+
+
+
+<!--Área do Retângulo -->
+
+<style>
+    body { font: 12pt Arial; }
+    button { font-size: 12pt; padding: 30px; }
+</style>
+<h1>Área do Retângulo</h1>
+<button onclick="retângulo()">Iniciar</button>
+<section id="resret">
+    <p>O resultado vem aqui...</p>
+</section>
+
+<script>
+
+    function retângulo() {
+        let b = Number(window.prompt('Digite valor da Base: '))
+        let h = Number(window.prompt('Digite o valor Altura:'))
+        ret = b * h
+
+        let resret = document.querySelector('section#resret')
+        resret.innerHTML = `<p> A=${b}*${h} = <strong>${ret}</strong>!</p>`
+    }
+</script>
+
+
+
+
+
+
+
+
+<!--Área do Triângulo -->
+
+<style>
+    body { font: 12pt Arial; }
+    button { font-size: 12pt; padding: 30px; }
+</style>
+<h1>Área do Triângulo</h1>
+<button onclick="triangulo()">Iniciar </button>
+<section id="restri">
+    <p>O resultado vem aqui...</p>
+</section>
+
+<script>
+
+    function triangulo() {
+        let b = Number(window.prompt('Digite valor da Base: '))
+        let h = Number(window.prompt('Digite o valor Altura:'))
+        tri = (b * h)/2
+
+        let resrtri = document.querySelector('section#restri')
+        restri.innerHTML = `<p>A=${b}*${h}/2 = <strong>${tri}</strong>!</p>`
+    }
+</script>
+
+
+
+
+<!--Área da Circulo -->
+
+<style>
+    body { font: 12pt Arial; }
+    button { font-size: 12pt; padding: 30px; }
+</style>
+<h1>Área do Círculo </h1>
+<button onclick="circulo()">Iniciar </button>
+<section id="rescir">
+    <p>O resultado vem aqui...</p>
+</section>
+
+<script>
+
+    function circulo() {
+        
+        let r = Number(window.prompt('Digite o valor de raio:'))
+        r = 3,14* 
+    
+
+        let rescir = document.querySelector('section#rescir')
+        rescir.innerHTML = `<p>A=3,14*${} = <strong>${cir}</strong></p>`
+    }
+</script>
+
+</body>
+</html>
